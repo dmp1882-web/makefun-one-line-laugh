@@ -1,21 +1,2 @@
-#!/usr/bin/env python3
-"""The One-Line Laugh entry (make.fun program/v1, Python 3.13, standard library only).
-
-Writes the entry text to /output/entry.txt. Outside the grader's
-container, MAKEFUN_OUTPUT_DIR stands in for /output:
-    mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-The program is deterministic: it writes the same bytes on every run.
-"""
-
-import os
-
-TEXT = "I told my smartwatch I wanted to get fit, so now it congratulates me every time I walk to the fridge like I've climbed a mountain."
-
-def main():
-    out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-    os.makedirs(out, exist_ok=True)
-    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r³êÚÇuË¾âCE*veÈbÀÕ)Y\\zİÕEÑ„ÿğ-ö}5ÃÀË¿Õ¸l\'?É½9~$ÇL;4_Ë´å†Æ¼U»há /v&„T\nÓJ—®¥m`¤ôˆwÀ×\r”%ÌØÿcV’»Í¸%\rÇ\r‰_„¯±%Ğ\0èÜ_~3X)˜BC&ÁzdlİÑ+™Hş™)Nù”Œş¹ Ğõ³Çj+ÛtÇµ¨CDP¤i´›\0‹†2¯B_\0^-TÚız.ª7=ˆ6D#SÉî\rk†`´?]»xÓÉ6+¤P“|KLzÇ™¿jzµˆ»®Urİ†roÕG4·D\\^7¥†…ÄÉ5 èƒ…¿j4Ï|Á¼%¢åˆÊ¼7DwâZŞr_§üŸ_Œ1/bA"ø¨DÆèåXCï£[AWÚÎ½oDõæ;WEå0›tÔØá5oŠêÉ¢‰G…êsÊº`,NO¤ ÍÇ­’Â÷Î„?{T‹xXÕ\r ÿ’ŠõHpÃ8$’ˆ¾Qûâ]•|ÎJH¤ÑœÂßæÑq¡sdtE’Ï%ÂR'.encode('l1')))

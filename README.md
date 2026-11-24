@@ -16,9 +16,11 @@ I told my smartwatch I wanted to get fit, so now it congratulates me every time 
 
 ## Program
 
-`main.py` (Python 3.13, standard library only) writes the entry text to
-`/output/entry.txt` (`MAKEFUN_OUTPUT_DIR` stands in for `/output` outside
-the grader). It is deterministic: the same bytes on every run.
+`main.py` is the compressed entrypoint (makefun-compress/v1, 556 bytes),
+packed from the readable source `src.py` (Python 3.13, standard library
+only). It writes the entry text to `/output/entry.txt`
+(`MAKEFUN_OUTPUT_DIR` stands in for `/output` outside the grader). It is
+deterministic: the same bytes on every run.
 
 ## License
 
